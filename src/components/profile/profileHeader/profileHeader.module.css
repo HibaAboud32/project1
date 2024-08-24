@@ -1,0 +1,132 @@
+.background {
+  width: 100%;
+  height: 70vh;
+}
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #006e6617;
+  border-radius: 70px 0px 70px 0px;
+}
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+  }
+}
+.conetnt_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 1000px) {
+  .conetnt_left {
+    flex-direction: column;
+  }
+}
+.conetnt_left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid rgb(255, 255, 255, 0.5);
+  margin-top: -75px;
+}
+.image_info {
+  margin-top: 20px;
+}
+.image_info h4 {
+  color: var(--main-text-color);
+  margin-top: -25px;
+  font-weight: bold;
+}
+.like svg {
+  color: red;
+}
+.like span {
+  margin-left: 10px;
+  color: var(--main-text-color);
+}
+.content_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.content_center p {
+  color: var(--main-text-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+.content_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.content_right p {
+  color: var(--main-text-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+.about_map {
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .about_map {
+    flex-direction: column;
+  }
+}
+.about {
+  flex: 45% 1;
+  border-radius: 20px 40px;
+  height: 160px;
+  padding: 20px;
+  background-color: #fdb26a;
+  border: 5px solid rgb(255, 255, 255, 0.5);
+  margin-top: -50px;
+}
+@media (max-width: 1000px) {
+  .about {
+    width: 100%;
+    margin: 0px;
+  }
+}
+.about h4 {
+  color: #000;
+  font-size: 26px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.about p {
+  text-align: center;
+  font-size: 18px;
+}
+.map {
+  flex-basis: 45%;
+  border-radius: 30px;
+  overflow: hidden;
+  min-height: 200px;
+}
+@media (max-width: 1000px) {
+  .map {
+    width: 100%;
+  }
+}
+.favorite_number {
+  padding: 5px;
+}

@@ -1,0 +1,21 @@
+.home{
+    /* background-color: var(--second-color); */
+    position: relative;
+    min-height: calc(100vh - 385px)
+}
+
+@media(max-width : 767px){
+    .home{
+        height: auto;
+    }
+    .go-premium{
+        position: static;
+    }
+}
+.show_shops{
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+}

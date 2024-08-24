@@ -1,0 +1,123 @@
+.footer{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+.footer-logo{
+    cursor: pointer;
+    text-align: center;
+}
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link a{
+    margin: 0 1rem;
+	color: var(--main-text-color) !important;
+	text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .3s;
+	font-weight: bold;
+}
+.footer-link a:hover {
+	color: var(--forth-color) !important;
+}
+.footer-downloadapp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.footer-downloadapp a{
+    padding: 10px;
+}
+.footer-downloadapp img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.footer-downloadapp .footer-socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.footer-socialmedia img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.copy-right{
+    margin: auto;
+}
+.copy-right p{
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 190px;
+    
+}
+.copy-right p a{
+    color: var(--forth-color) !important;
+    font-size: 14px;
+    font-weight: bold;  
+}
+.footer_bottom{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+@media(max-width : 1000px){
+    .footer_bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-downloadapp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .copy-right p{
+        padding-left: 0px;
+    }
+}
+.download_app{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    display: block;
+    width: fit-content;
+    transition: .5s;
+}
+.download_app:hover{
+    color: var(--second-text-color);
+}
+.download_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.download_btn a{
+    width: 120px;
+    height: 40px;
+}
+.download_btn a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}

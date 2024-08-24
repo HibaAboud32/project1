@@ -1,0 +1,244 @@
+/* .profile{
+    position: relative;
+}
+
+.profile_header{
+    width: 100%;
+    height: 300px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(38,193,192,1) 50%, rgba(252,176,69,1) 100%);
+}
+.profile_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: -100px;
+}
+@media(max-width : 767px){
+    .profile_info{
+       display: block;
+    }
+}
+.profile_image{
+    width: 200px;
+    height: 200px;
+}
+@media(max-width : 767px){
+    .profile_image{
+        width: 100px;
+        height: 100px;
+    }
+}
+.profile_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 50px;
+    border: 3px solid #fff;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+}
+.content h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.favorite_btn{
+    background-color: var(--second-text-color);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.favorite_btn:hover{
+    color: #000;
+}
+.content_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}   
+.add_product{
+    background-color: var(--second-text-color);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+}
+.add_product:hover{
+    color: var(--main-color);
+}
+.content_info p{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.content_info p span{
+    margin-right: 20px;
+    display: block;
+    width: 100px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 120px;
+}
+@media(max-width : 768px){
+    .products{
+        margin-top: 200px;
+    }
+}
+.product{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+@media(max-width : 990px){
+    .product{
+        width: 100%;
+    }
+}
+.product_image{
+    width: 300px;
+    height: 200px;
+}
+.product_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media(max-width : 767px){
+    .product_image img{
+        width: 200px;
+    }
+}
+.product_info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+}
+.product_info div{
+    margin-bottom: 10px;
+}
+.product_top{
+    display: flex;
+    justify-content: space-between;
+}
+.product_name{
+}
+.product_views{
+}
+.description{
+    flex-basis: 90%;
+}
+.product_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+}
+.old_price{
+}
+.product_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+}
+.icon{
+    color: red;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+}
+.update_delete_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.update_delete_btn button{
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.update_btn{
+    background-color: var(--second-text-color) !important;
+}
+.update_delete_btn button:hover{
+    color: #000;
+}
+
+.favorate{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.popup img{
+    
+}
+
+
+.similar_Shop{
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section_container{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    max-width: inherit !important;
+    margin-bottom: 30px;
+}
+.card{
+    position: relative;
+    height: 100%;
+    background-color:#FFFFFF;
+    border-radius: 30px;
+    width: 300px;
+}
+.card .image1{
+    display: flex;
+}
+.card .image1 img{
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+} */

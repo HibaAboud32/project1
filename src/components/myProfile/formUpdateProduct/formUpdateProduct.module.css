@@ -1,0 +1,241 @@
+/* .form_add_product{
+
+}
+.backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+.add_product_container{
+    border-radius: 20px;
+    padding: 20px;
+    position: fixed;
+    background-color: var(--main-color);
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 50%;
+    overflow-y: auto;
+    bottom: 0;
+}
+.add_product_container::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50px;
+}
+.add_product_container::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);    
+    border-radius: 20px;       
+    border: 3px solid orange;  
+  }
+.add_product_container::-webkit-scrollbar-track {
+    background: orange;        
+    border-radius: 20px;
+  }
+@media(max-width : 768px){
+    .add_product_container{
+        width: 90%;
+    }
+}
+.x_btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.create_product{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.input_container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.input_container label{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.input_container input{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.input_container input:focus{
+    outline: none;
+}
+.input_container textarea{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    min-height: 100px;
+}
+.input_container textarea:focus{
+    outline: none;
+}
+.submit_btn{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.submit_btn:hover{
+    color: #000;
+} */
+
+
+
+
+.form_add_product{
+    margin: 30px 0;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-color);
+    transition: 1s;
+    z-index: 1;
+}
+.backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+.add_product_container{
+    border-radius: 20px;
+    padding: 20px;
+    position: fixed;
+    background-color: var(--main-color);
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 50%;
+}
+@media(max-width : 768px){
+    .add_product_container{
+        width: 90%;
+    }
+}
+.x_btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.form_add{
+    background-color: var(--main-color);
+    max-height: 70vh;
+    overflow: auto;
+}
+.form_add::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50px;
+}
+.form_add::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }
+.form_add::-webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+    border-radius: 20px;
+  }
+.create_product{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.input_container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.input_container label{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.input_container input, .input_container select{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.input_container input:focus{
+    outline: none;
+}
+.input_container textarea{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    min-height: 100px;
+}
+.input_container textarea:focus{
+    outline: none;
+}
+.option{
+    padding: 20px;
+}
+.submit_btn{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.submit_btn:hover{
+    color: #000;
+}
+/* style error message  */
+.error_msg{
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.offScreen{
+    position: absolute;
+    left: -9999;
+}

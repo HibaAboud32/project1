@@ -1,0 +1,22 @@
+.get_policy {
+  padding: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  /* letter-spacing: 2px; */
+  overflow-y: auto;
+  height: calc(100vh - 65px - 70px);
+}
+.get_policy::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 50px;
+}
+.get_policy::-webkit-scrollbar-track {
+  background: orange; /* color of the tracking area */
+  border-radius: 50px;
+}
+.get_policy::-webkit-scrollbar-thumb {
+  background-color: var(--main-color); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid orange;
+}

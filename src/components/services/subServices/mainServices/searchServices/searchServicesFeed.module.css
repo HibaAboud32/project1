@@ -1,0 +1,79 @@
+.sub_services_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.sub_element{
+    width: 250px;
+    max-height: 500px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+.sub_element::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 50px;
+}
+.sub_element::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+.sub_element::-webkit-scrollbar-track{
+    background: orange;
+    border-radius: 20px;
+}
+.sub_element img{
+    width: 85%;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+.content{
+
+}
+.content div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+}
+.content div h4{
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 15px;
+}
+.content div p{
+    color: var(--second-text-color);
+    font-size: 12px;
+}
+
+/* start load more btn  */
+.btn_load_more{
+    text-align: center;
+    margin-top: 30px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn_load_more button{
+    padding: 2px 10px;
+    background-color: var(--thirs-color);
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px ;
+    transition: 0.3s;
+}
+/* end load more btn  */

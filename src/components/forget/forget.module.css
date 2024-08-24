@@ -1,0 +1,95 @@
+.forget_password {
+  position: relative;
+}
+.forget_password_container {
+  width: 50%;
+  left: 50%;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  height: 100%;
+  margin: auto;
+  padding: 20px 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .forget_password_container {
+    width: 100%;
+  }
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 20px;
+  text-align: center;
+}
+.forget_password_container h3 {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 32px;
+}
+.forget_password_container p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.forget_password_container input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+}
+.forget_password_container input:focus {
+  outline: none;
+}
+.image_verification {
+  margin: auto;
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 20px;
+  display: block;
+  border-radius: 20px;
+}
+.forget_password_footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+/* start forget password  */
+.reset_password {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+.reset_password_container {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+.reset_password_container h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+.reset_password_container input {
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  /* border: none; */
+  border: 1px solid #000;
+}
+.reset_password_container input:focus {
+  outline: none;
+}
+
+/* end forget password  */

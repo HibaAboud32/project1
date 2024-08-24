@@ -1,0 +1,333 @@
+body.active{
+    /* background: #5ba361b8; */
+    background: var(--main-color);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contaner{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+}
+.bluebg{
+    position: absolute;
+    top:40px ;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(255, 255, 255, 0.2) ;
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+}
+.bluebg .box{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bluebg .box h2{
+    color: #000;
+    font-size:1.2em ;
+    font-weight:500 ;
+    margin-bottom: 10px;
+}
+.bluebg .box button{
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
+.formbx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.formbx.active{
+    left: 50%;
+}
+.formbx .form{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    transition: 0.5s;
+}
+.formbx.active .signinform{
+    left: -100%;
+    transition-delay: 0s;
+}
+.formbx .signinform{
+    transition-delay: 0.25s;
+}
+.password_div{
+    position: relative;
+}
+.password_div svg{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+.formbx .signupform{
+    left: 100%;
+    transition-delay: 0s;
+}
+.formbx.active .signupform{
+    left: 0;
+    transition-delay: 0.25s;
+}
+.formbx .form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.formbx .form form h3{
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.formbx .form form h4{
+    text-align: center;
+    color: #333;
+}
+.formbx .form form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 30px;
+}
+.formbx .form button{
+    /* background: transparent; */
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.formbx .form span{
+    font-size: 18px;
+    color: red;
+}
+.formbx .form form input[type="submit"]{
+    background: #d1a361;
+    border: none;
+    color: #fff;
+    max-width: 100px;
+    cursor: pointer;
+}
+.formbx.active .signupform input[type="submit"]{
+    background: #5ba361;
+}
+.form .signWith{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .signWith button{
+    width: 75px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    border-color: floralwhite;
+    border-radius: 50%;
+    margin: auto;
+}
+.form .signWith img{
+    width: 35px;
+}
+.form .signWith button:hover{
+    background-color: #bdd0be;
+}
+
+/* validate section  */
+.pin-input-2-container{
+    height: 111vh;
+    width: 100vw;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media(max-width : 990px){
+    .pin-input-2-container{
+        width : 98vw;
+    }
+}
+@media(max-width : 798px){
+    .pin-input-2-container{
+        width : 96vw;
+    }
+}
+.pin-input-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #fff;
+    z-index: 1001;
+    text-align: center;
+}
+.validate_title{
+    color: #000;
+    text-align: center;
+}
+.pin-input__field-2{
+    background-color: #333;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.pin-input__field-2:focus{
+    outline: none;
+}
+.pin-input-btn{
+    display: block;
+    background-color: var(--second-text-color);
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+.validation_btn{
+    margin-top: 20px;
+    background-color: var(--second-text-color);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.validation_btn:hover{
+    color: #000;
+}
+/* new form  */
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--second-text-color);
+    color: #fff;
+    padding: 0.15rem;
+    position: relative;
+    bottom: 10px;
+    margin-top: 0;
+    transition: .2s;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+.submit_register_btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px !important;
+    color: #fff;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.submit_register_btn_disabled{
+    opacity: .5;
+}
+/* end new form  */
+@media (max-width:991px){
+    .contaner{
+        max-width: 400px;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contaner .bluebg{
+        top: 0;
+        height: 100%;
+    }
+    .formbx{
+        width: 100%;
+        height: 500px;
+        top: 0;
+        box-shadow: none;
+    }
+    .bluebg .box{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+    }
+    .box.signin{
+        top: 0;
+    }
+    .formbx.active{
+        left: 0;
+        top: 150px;
+    }
+    .pin-input-2{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,68 @@
+.dots {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.dots div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-bottom: 2px;
+  background-color: #000;
+  cursor: pointer;
+}
+.product_element_icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  margin-top: 10px;
+}
+.product_element_icon svg {
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--main-text-color);
+}
+.list_product {
+  padding: 20px 10px 10px 10px;
+  background-color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  border-radius: 20px;
+}
+.list_element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 5px;
+}
+.list_element:hover {
+  background-color: var(--forth-color);
+  color: #fff !important;
+}
+.list_element:hover p,
+.list_element:hover svg {
+  color: #fff;
+}
+.list_element svg {
+  font-size: 16px;
+}
+.list_element p {
+  margin: 0;
+  color: var(--main-text-color);
+  font-weight: 400;
+}
